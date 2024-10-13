@@ -1,0 +1,134 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('assets/img/fondoinventario1.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #001f3f; /* Fondo azul marino */
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Estilos del contenedor del formulario */
+/* Estilos del contenedor del formulario */
+.container {
+    text-align: center;
+    background-color: transparent; /* Fondo transparente */
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #424142;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    margin-top: 20px; /* Margen superior para separar del título */
+}
+
+
+/* Estilos del título principal */
+h1 {
+    color: #dcdee2;
+    font-size: 25px; /* Tamaño del título aumentado */
+    margin-bottom: 20px;
+    font-weight: 325; /* Negrita */
+    letter-spacing: 3px; /* Espaciado entre letras */
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Estilos de las etiquetas del formulario */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #f7f8fa;
+    font-size: 15px; /* Tamaño de fuente aumentado */
+    font-family: 'Lato', sans-serif; 
+}
+/* Estilos de los campos de entrada de texto */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos del botón de inicio de sesión */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #b62323;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    font-size: 14px; /* Tamaño de fuente */
+    font-family: 'Poppins', sans-serif; 
+}
+
+/* Estilos del botón al pasar el cursor sobre él */
+button:hover {
+    background-color: #440404; /* Cambio a tono más oscuro al pasar el cursor */
+}
+
+/* Estilos del contenedor del icono */
+.icon {
+    text-align: center;
+    margin-top: 5px; /* Espaciado desde el botón de Iniciar Sesión */
+}
+
+/* Asegúrate de ajustar el tamaño y el estilo del icono según tus necesidades */
+.icon img {
+    width: 55px;
+    height: 55px;
+}
+
+a.password-link {
+    color: white; /* Cambia el color del enlace a blanco */
+    /* text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 14px; /* Tamaño de fuente */
+    font-family: 'Poppins', sans-serif; 
+    letter-spacing: 1px;
+  }
+
+  /* Estilos para el contenedor */
+  .container2 {
+    padding: 20px; /* Agrega espaciado interior si es necesario */
+    margin-bottom: 50px; /* Margen inferior para separar del formulario */
+    margin-left: 0px;
+    margin-right: 30px;
+}
+  
+.text-center {
+    text-align: center;
+    font-size:30px; /* Aumenta el tamaño de fuente*/
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif; /* Cambia la fuente*/
+    color: #ffffff; /* Cambia el color del texto*/
+    font-weight: 50; /* Hace que las letras sean un poco más gruesas */
+    text-shadow: 20px 20px 80px rgba(0, 0, 0, 0.4);
+}
+  /* Estilos para el contenedor de la imagen centrada */
+.imagen-container {
+    text-align: center;
+    margin-top: 40px; /* Espacio superior deseado */
+}
+
+/* Estilos para la imagen */
+.imagen-titulo {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Centrar horizontalmente */
+    display: block;
+}
+
